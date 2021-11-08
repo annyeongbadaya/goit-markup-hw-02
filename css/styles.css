@@ -21,6 +21,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212121;
 }
 
 .list {
@@ -218,4 +219,55 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+
+/* --- Портфолио--- */
+/* Фильтр */
+
+.filter-title {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-button-color);
+  background-color: var(--second-button-bgc);
+}
+.filter-button {
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-button-color);
+  background-color: var(--main-button-bgc);
+}
+
+/* Проекты */
+
+.projects-litle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
